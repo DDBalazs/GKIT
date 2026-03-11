@@ -29,3 +29,6 @@ target_link_libraries(CsirkeKep graphics)
 # A részecskés programod:
 add_executable(Reszecskerendszer reszecske.cpp)
 target_link_libraries(Reszecskerendszer graphics)
+
+add_executable(Ticketek Ticketek.cpp)
+target_link_libraries(Ticketek graphics)
